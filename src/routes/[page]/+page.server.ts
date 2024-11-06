@@ -1,7 +1,7 @@
 import { chapters, page_map } from "$lib/data"
 import { error } from "@sveltejs/kit"
 
-export const prerender = true
+// export const prerender = true
 
 export async function load({ params }) {
     const page = page_map[params.page]

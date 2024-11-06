@@ -1,0 +1,61 @@
+/** ===== GLOBAL CSS VARIABLES ===== */
+:root {
+    /** Dark Mode Theme */
+    /* --background-rgb: 17, 16, 15; */
+    /* --background-rgb: 8, 16, 18; */
+    --background-rgb: 255, 245, 230;
+    --background: rgb(var(--background-rgb));
+
+    --foreground-rgb: 16, 12, 8;
+    --foreground: rgb(var(--foreground-rgb));
+
+    --brand-rgb: 210, 120, 70;
+    /* --brand-rgb: 0, 180, 115; */
+    --brand: rgb(var(--brand-rgb));
+
+    --red-rgb: 226, 84, 84;
+    --red: rgb(var(--red-rgb));
+
+    --orange-rgb: 255, 137, 71;
+    --orange: rgb(var(--orange-rgb));
+
+    --yellow-rgb: 242, 201, 76;
+    --yellow: rgb(var(--yellow-rgb));
+
+    --lime-rgb: 173, 212, 74;
+    --lime: rgb(var(--lime));
+
+    --green-rgb: 0, 180, 115;
+    --green: rgb(var(--green-rgb));
+
+    --blue-rgb: 84, 158, 226;
+    --blue: rgb(var(--blue-rgb));
+
+    --purple-rgb: 116, 70, 246;
+    --purple: rgb(var(--purple-rgb));
+
+    --copilot-rgb: var(--purple-rgb);
+    --copilot: rgb(var(--copilot-rgb));
+
+    --brand-rgb-safe: var(--brand-rgb);
+    --brand-safe: rgb(var(--brand-rgb-safe));
+
+    --light-rgb: 255, 255, 255;
+    --light: rgb(var(--light-rgb));
+
+    --dark-rgb: 0, 0, 0;
+    --dark: rgb(var(--dark-rgb));
+}
+
+/* check if any children have the light_mode class */
+html:has(.light_mode) {
+    /* --brand-rgb: 235, 110, 0; */
+
+    /* --background-rgb: 242, 240, 245; */
+
+    /* --foreground-rgb: 16, 14, 18; */
+
+    --background-rgb: 8, 8, 12;
+
+    --foreground-rgb: 255, 255, 255;
+}

@@ -19,7 +19,7 @@ let { block }: {
 <style>
 li {
     margin: 0;
-    padding-left: 0.8em;
+    padding-left: 0.5em;
     &::marker {
         font-weight: 600;
     }

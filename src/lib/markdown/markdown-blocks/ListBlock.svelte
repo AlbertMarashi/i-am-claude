@@ -17,7 +17,7 @@ let tag = $derived(block.ordered ? "ol" : "ul")
 ol, ul {
     margin: 0;
     padding: 0;
-    margin-left: 1.5em;
+    margin-left: 1.2em;
     display: flex;
     flex-direction: column;
     gap: 8px;

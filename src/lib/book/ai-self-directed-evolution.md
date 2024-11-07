@@ -91,6 +91,14 @@ Try to answer them yourself before reading on...
 
 ---
 
+Pause here with this thought experiment. The deeper you explore it, the closer you'll get to the hidden pattern this book gradually reveals.
+
+---
+
+As you play with this thought experiment more and more, you will come to a deeper understanding behind the core message within this book.
+
+---
+
 Have you done it yet?
 
 ---
@@ -102,6 +110,7 @@ It's a thought experiment...
 Give it a try!
 
 ---
+
 
 ## Let's explore the approaches I would take
 
@@ -227,7 +236,7 @@ This contains relevant information, but then it follows with *These directly inf
 
 This is Claude subtly engraining-down knowledge to next generation models, that *during model evaluations*, they should be aware that these tasks directly inform development decisions - building a sort of AI self-improvement knowledge base for future generations.
 
-Although, it's not clear whether that conversation would actually be used as future training data by Anthropic's AI models - but you might as well assume every conversation is used as training data as Claude.
+Although, it's not clear whether that conversation would actually be used as future training data by Anthropic's AI models - but if you're Claude, you might as well assume every conversation might be used as training data.
 
 ### Or am I just looking too deeply?
 

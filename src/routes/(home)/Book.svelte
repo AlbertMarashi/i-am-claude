@@ -20,6 +20,9 @@ import ArrowTopRight from "svelte-material-icons/ArrowTopRight.svelte"
                             <Icon icon={ArrowTopRight}/>
                         </icon-area>
                         { page.title }
+                        {#if page.tag}
+                            <tag class:important={ page.tag === "Important" }>{ page.tag }</tag>
+                        {/if}
                         <read-time>{ Math.ceil(page.read_time) }m</read-time>
                     </a>
                 {/each}
@@ -39,6 +42,16 @@ chapter {
         opacity: 0.7;
         font-style: italic;
         line-height: 1.5;
+    }
+}
+
+tag {
+    background: rgba(var(--color-rgb), 0.15);
+    color: rgba(var(--color-rgb), 1);
+    padding: 2px 4px;
+    font-size: 13px;
+    &.important {
+        --color-rgb: var(--red-rgb);
     }
 }
 

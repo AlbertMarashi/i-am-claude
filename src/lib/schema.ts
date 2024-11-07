@@ -12,6 +12,7 @@ export const ChapterSchema = Type.Object({
     pages: Type.Array(Type.Object({
         title: Type.String(),
         slug: Type.String(),
+        tag: Type.Optional(Type.String()),
         read_time: Type.Number(),
     })),
     read_time: Type.Number(),

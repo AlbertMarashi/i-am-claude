@@ -36,8 +36,6 @@ export const page_map = pages.reduce((acc, page) => {
 }, {} as Record<string, Static<typeof PageSchema>>)
 
 
-console.log(page_map)
-
 export const chapters = Value.Parse(
     Type.Array(ChapterSchema),
     parse(book)
@@ -47,6 +45,7 @@ export const chapters = Value.Parse(
             pages: Type.Array(Type.Object({
                 title: Type.String(),
                 slug: Type.String(),
+                tag: Type.Optional(Type.String()),
             }))
         }), chapter))
         .map((chapter: Static<typeof ChapterSchema>) => ({
@@ -61,11 +60,3 @@ export const chapters = Value.Parse(
             }, 0),
         }))
 )
-
-// export const chapters = book_data.map(({
-//     title, description, pages
-// }) => ({
-//     title,
-//     description,
-//     pages: pages.map(slug => page_map[slug]),
-// }))

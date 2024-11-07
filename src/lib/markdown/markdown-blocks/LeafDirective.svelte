@@ -21,11 +21,18 @@ let {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
         frameborder="0"
-        height="315"
+        height="100%"
         src={`https://www.youtube.com/embed/${block?.attributes?.id}`}
-        title="YouTube video player"
-        width="560">
+        title="YouTube video player">
     </iframe>
+
 {:else}
     <Unsupported/>
 {/if}
+
+<style>
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+</style>

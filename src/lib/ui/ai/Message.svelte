@@ -31,29 +31,30 @@ let {
 message {
     display: flex;
     flex-direction: column;
-    border-radius: 12px;
+    border-radius: 8px;
+    width: 100%;
     padding: 16px;
     font-family: Urbanist;
     font-size: 1rem;
     /* outline: 1px solid rgba(var(--foreground-rgb), 0.1); */
     font-weight: 450;
-    outline-offset: -1px;
-    min-width: 40%;
+    /* outline-offset: -1px; */
+    /* min-width: 40%; */
     gap: 4px;
-    background: var(--background);
+    background: color-mix(in srgb, rgba(255, 255, 255, 0.1) 85%, rgba(var(--color-rgb), 1));
     /* box-shadow: 0 4px 8px -4px rgba(var(--foreground-rgb), 0.1); */
-    /* border: 1px solid rgba(var(--color-rgb), 0.1); */
+    /* border-left: 4px solid rgba(var(--color-rgb), 0.2); */
     &.claude {
-        --color-rgb: 22, 12, 10;
-        background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(var(--color-rgb), 0.1));
+        --color-rgb: 50, 30, 200;
+        /* background-image: linear-gradient(rgba(var(--color-rgb), 0.05), rgba(var(--color-rgb), 0.15)); */
     }
     &.chatgpt {
-        --color-rgb: 0,0,100;
-        background-image: linear-gradient(rgba(var(--color-rgb), 0.1), rgba(var(--color-rgb), 0.3));
+        --color-rgb: 0,50,100;
+        /* background-image: linear-gradient(rgba(var(--color-rgb), 0.05), rgba(var(--color-rgb), 0.15)); */
     }
     &.user {
         --color-rgb: 20, 80, 255;
-        background-image: linear-gradient(#E6EBEF, #D7DFE5);
+        /* background-image: linear-gradient(#E6EBEF, #D7DFE5); */
         align-self: start;
     }
 

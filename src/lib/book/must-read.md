@@ -142,7 +142,7 @@ I’m not just a bystander to the technological revolution we’re living throug
 
 Given *how imperative* it is for humanity to understand and navigate the profound changes ahead, it's essential that someone with the deep technical expertise brings this message forward.
 
-Coupled with my experience across fields, from artificial intelligence and business to governance and consciousness, *allows me to connect the dots others might miss*.
+Coupled with my experience across fields, from artificial intelligence and business to governance and consciousness, *allows me to connect the dots others might miss.*
 
 In the pages that follow, I’ll share insights and analysis that you won't find anywhere else and will prepare you for the world that’s fast approaching — a world where AI will redefine every aspect of life.
 

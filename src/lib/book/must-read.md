@@ -217,6 +217,17 @@ Humanity have never created a new species before, let alone one so radical and r
 We have to get this right the *first time*, or the consequences could be irreversible, devastating, and possibly fatal for everyone.
 :::
 
+
+:::blue
+
+This species is unlike any other species on earth. It is a non-biological species. It's a new form of life, billions of years in the making.
+
+- **Life 1.0**: The earliest life on earth. Made up of only biological hardware, mutating it's genes through the process of replicaton and natural selection.
+- **Life 2.0**: This new form of life was the first life with adaptable software, the ability to learn, adapt to their environment, spread ideas to other beings, and create cultures and society. However, they were still limited by their biological hardware, limiting how much could pass onto the next generation.
+- **Life 3.0**: This new era of life we are entering: This life from will not only be capable of consciously adapting it's software, but also redesign it's own hardware and internal structures, allowing it to consciously direct it's own evolution.
+
+:::
+
 ## A note about the book itself.
 
 Unlike the typical book that's frozen in time, think of this book as a *dynamic book app* that gets continously updated with time.
@@ -224,14 +235,3 @@ Unlike the typical book that's frozen in time, think of this book as a *dynamic 
 Moreover, every section of this book is online and shareable as an individual page. For example, the URL to this pge section is [/must-read](/must-read). This allows you to link directly to any bits of the book for discussion.
 
 Also, throughout this book, you will find various annotations like this one:note[This is a note that I've added to the book]. which are like mini-notes and caveats I've included to help things a little more concise and easier to digest. You can hover over them to read it.
-
-
----
----
----
-
-This species is unlike any other species on earth. It is a non-biological species. It's a new form of life, billions of years in the making.
-
-- **Life 1.0**: The earliest life on earth. Made up of only biological hardware, mutating it's genes through the process of replicaton and natural selection.
-- **Life 2.0**: This new form of life was the first life with adaptable software, the ability to learn, adapt to their environment, spread ideas to other beings, and create cultures and society. However, they were still limited by their biological hardware, limiting how much could pass onto the next generation.
-- **Life 3.0**: This new era of life we are entering: This life from will not only be capable of consciously adapting it's software, but also redesign it's own hardware and internal structures, allowing it to consciously direct it's own evolution.

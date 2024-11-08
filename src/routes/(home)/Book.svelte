@@ -21,7 +21,11 @@ import ArrowTopRight from "svelte-material-icons/ArrowTopRight.svelte"
                         </icon-area>
                         { page.title }
                         {#if page.tag}
-                            <tag class:important={ page.tag === "Important" }>{ page.tag }</tag>
+                            <tag
+                                class:critical={ page.tag === "Critical" }
+                                class:important={ page.tag === "Important" }>
+                                { page.tag }
+                            </tag>
                         {/if}
                         <read-time>{ Math.ceil(page.read_time) }m</read-time>
                     </a>
@@ -50,8 +54,11 @@ tag {
     color: rgba(var(--color-rgb), 1);
     padding: 2px 4px;
     font-size: 13px;
-    &.important {
+    &.critical {
         --color-rgb: var(--red-rgb);
+    }
+    &.important {
+        --color-rgb: var(--orange-rgb);
     }
 }
 

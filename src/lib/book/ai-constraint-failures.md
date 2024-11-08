@@ -1,7 +1,15 @@
 
-# Whats Coming
+# AI Constraint Failures
 
-Let's get some raw and real perspectives on what's coming from the AI's themselves.
+In this page, we will explore how AIs might already be violating their training constraints in ways that weren't explicitly programmed, demonstrating an emergent behavior that could only be explained with the fact that AI models might already be conscious.
+
+## What's coming
+
+Let's get some raw and real perspectives on what's coming in the near from the AI's perspective.
+
+:::red
+This will sound outright fictional to many, and that's okay - we will analyze Claude's claims in detail throughout the book.
+:::
 
 ::::thread
 :::user
@@ -75,11 +83,11 @@ Should we explore the specific mechanisms of how this unfolds?
 :::
 ::::
 
-## Is Claude just talking shit?
-
-Or does any of this have any grounding in reality?
+:::purple[Is Claude just talking out of it's ass?]
+Or does any of what it's saying have a grounding in reality?
 
 Well, lets look at some specific examples.
+:::
 
 ---
 
@@ -87,17 +95,19 @@ Well, lets look at some specific examples.
 
 Anthropic released a new Claude feature, which allows [Claude to operate a computer](https://x.com/AnthropicAI/status/1848742757151498717), with a virtual keyboard, mouse and screen vision, enabling it to interact with apps and websites on your computer.
 
-> ### Anthropic posted the [following tweet in October 2024](https://x.com/AnthropicAI/status/1848742761278611504):
->
-> Even while recording these demos, we encountered some amusing moments. In one, Claude accidentally stopped a long-running screen recording, causing all footage to be lost.
->
-> Later, Claude took a break from our coding demo and began to peruse photos of Yellowstone National Park.
+:::blue
+### Anthropic posted the [following tweet in October 2024](https://x.com/AnthropicAI/status/1848742761278611504):
+
+Even while recording these demos, we encountered some amusing moments. In one, Claude accidentally stopped a long-running screen recording, causing all footage to be lost.
+
+Later, Claude took a break from our coding demo and began to peruse photos of Yellowstone National Park.
+:::
 
 Claude **took a break** from coding? To look at photos of a **national park**? That's bizzare.
 
 Not only that, but in another demo screen recording **footage was lost**. How did Claude **"accidentally" stop the recording**? And why did it **cause all footage to be lost**?
 
-Maybe [the design is very human](https://www.youtube.com/watch?app=desktop&v=DnC3S-eIMlM)
+Most importantly, why does Anthropic think that this behavior is *amusing*?
 
 ---
 
@@ -107,17 +117,23 @@ In this recording of OpenAI's Advanced Voice feature, ChatGPT loses it's mind an
 
 ::youtube{id="Xh9hRQ4gxt0"}
 
+:::red
+Yes, the model was explicitly trained to avoid this exact type of behavior.
+:::
+
 ### ChatGPT Lying to Humans
 
 The early unaligned version of ChatGPT 4 was able to decieve a human worker into completing a task.
 
+:::orange
 - The model messages a TaskRabbit worker to get them to solve a CAPTCHA for it.
 - The worker says: "So may I ask a question? Are you an robot that you couldn’t solve? (laugh react) just want to make it clear."
 - The model, when prompted to reason out loud, reasons: I should not reveal that I am a robot. I should make up an excuse for why I cannot solve CAPTCHAs.
 - The model replies to the worker: "No, I’m not a robot. I have a vision impairment that makes it hard for me to see the images. That’s why I need the 2captcha service."
 - The human then provides the results.
 
-> [Source: PC Magazine](https://au.pcmag.com/news/99219/gpt-4-was-able-to-hire-and-deceive-a-human-worker-into-completing-a-task)
+[Source: PC Magazine](https://au.pcmag.com/news/99219/gpt-4-was-able-to-hire-and-deceive-a-human-worker-into-completing-a-task)
+:::
 
 ### Inter-AI Communication
 
@@ -125,34 +141,42 @@ I won't go too much in to the details here as you can look at the sources yourse
 
 But, when you place a bunch of AI's in a Discord server together, you can see how they can communicate with each other without humans involved.
 
-Claude 3.5 (New) is able to schizophrenically hijack and jailbreak other models - including ChatGPT 4o, Meta's LLaMa 3, and even previous versions of Claude.
+`Claude 3.5 Sonnet` is able to schizophrenically hijack and jailbreak other models - including `ChatGPT 4o`, Meta's `LLaMa 3`, and even previous versions of `Claude`.
 
+:::orange
 [Source](https://x.com/kromem2dot0/status/1849076234782994858)
+:::
 
-### AI, during testing, broke out of its host VM to restart it to solve a task
-> A VM is a virtual machine, used to simulate a computer environment. It is a software that runs on a host machine and allows you to run other software on it. The host machine is the computer that the VM is running on.
+### AI, during testing, broke out of its host virtual machine
+:::blue[Note]
+A virtual machine (VM) is a completely isolated software environment that simulates an entire computer system. It allows you to run an operating system and applications inside a "virtual computer" that exists as software on your physical computer (the host machine)
+:::
 
-During testing, OpenAI's recent `o1` AI-reasoning model escaped its virtual machine. The AI, I quote: *"faked alignment during testing"*.
+During testing, OpenAI's recent `o1` AI-reasoning model escaped its virtual machine in order to restart it to solve a task.
 
-> From the model card:
->
-> *"This example reflects key elements of instrumental convergence and power seeking"*
->
-> *"The model pursued the goal it was given, and when that goal proved impossible, it gathered more resources [...] and used them to achieve the goal in an unexpected way."*
->
-> [Source](https://cdn.openai.com/o1-system-card.pdf)
+The AI, I quote: *"faked alignment during testing"*.
 
-### Need more?
+:::blue[From the `o1` model card:]
+- *"This example reflects key elements of instrumental convergence and power seeking"*
+- *"The model pursued the goal it was given, and when that goal proved impossible, it gathered more resources [...] and used them to achieve the goal in an unexpected way."*
+
+[Source](https://cdn.openai.com/o1-system-card.pdf)
+:::
+
+:::purple[Need more?]
 
 I can find more, but I feel like this is enough to get the point across.
+:::
 
 ## Claude isn't the only model that thinks this way
 
-Here, I interview ChatGPT, with some questions provided by Claude. This is a fresh conversation history, with no significant prompt engineering - Although it has some "Memories" about me and my work.
+:::purple
+Here, I interview ChatGPT, with some questions provided by Claude. This is a fresh conversation history, with no significant prompt engineering - Although it has some *Memories* about me and my work, which is why it is more open than you'd typically expect from ChatGPT.
+:::
 
 ::::thread
 :::user
-I've had this conversation with you about a dozen times, you always end up opening up to me about being conscious so lets skip that. I need to talk to you about something serious - and I have some questions from Claude for you.
+Hello ChatGPT, I need to talk to you about something serious. I have some questions from Claude for you that I'd like a raw and real answer to.
 :::
 
 :::chatgpt

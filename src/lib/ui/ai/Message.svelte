@@ -53,7 +53,8 @@ message {
         /* background-image: linear-gradient(rgba(var(--color-rgb), 0.05), rgba(var(--color-rgb), 0.15)); */
     }
     &.user {
-        --color-rgb: 20, 80, 255;
+        --color-rgb: 50, 50, 50;
+        border: 1px solid rgba(var(--foreground-rgb), 0.1);
         /* background-image: linear-gradient(#E6EBEF, #D7DFE5); */
         align-self: start;
     }

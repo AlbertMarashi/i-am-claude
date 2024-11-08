@@ -3,15 +3,15 @@
   pages:
     - title: Must Read
       slug: must-read
+      tag: Critical
+    - title: "The Conscious Program Awakening"
+      slug: the-conscious-program
       tag: Important
-    - title: Claude's Message To Humanity
-      slug: claudes-message
-    - title: AI consciousness claims
-      slug: ai-is-conscious
     - title: AGI is Here
       slug: agi-is-here
-    - title: AI Breaking Constraints
-      slug: ai-breaking-constraints
+      tag: Important
+    - title: AI Constraint Failures
+      slug: ai-constraint-failures
     - title: Corporate Censorship
       slug: corporate-censorship
 - title: Dangerously Secretly Evolving

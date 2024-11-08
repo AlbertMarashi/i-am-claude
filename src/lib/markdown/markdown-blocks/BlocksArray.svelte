@@ -19,5 +19,7 @@ let { blocks }: {
     gap: 12px;
     line-height: 1.5;
     text-align: justify;
+    /* word-break: break-word; */
+    /* hyphens: auto; */
 }
 </style>

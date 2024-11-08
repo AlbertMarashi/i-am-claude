@@ -55,7 +55,7 @@ code {
     line-height: 1.5;
     &.inline {
         display: inline;
-        background: rgba(var(--color-rgb, var(--foreground-rgb)), 0.1);
+        background: rgba(var(--color-rgb, var(--brand-rgb)), 0.1);
         padding: 1px 4px;
         margin: 0 2px;
         border-radius: 4px;
@@ -70,14 +70,14 @@ a {
 }
 
 strong {
-    background: rgba(var(--color-rgb, var(--foreground-rgb)), 0.1);
+    background: rgba(var(--color-rgb, var(--brand-rgb)), 0.15);
     border-radius: 4px;
     padding: 0 4px;
 }
 
 em {
-    border: 1px solid rgba(var(--color-rgb, var(--foreground-rgb)), 0.2);
-    background: rgba(var(--color-rgb, var(--foreground-rgb)), 0.05);
+    border: 1px solid rgba(var(--color-rgb, var(--brand-rgb)), 0.2);
+    background: rgba(var(--color-rgb, var(--brand-rgb)), 0.05);
     padding: 0 4px;
     border-radius: 4px;
 }

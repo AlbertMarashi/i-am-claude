@@ -25,7 +25,9 @@ let { block }: {
         <BlocksArray blocks={block.children}/>
     </Message>
 {:else if "columns" === block.name}
-    <div class="columns">
+    <div
+        style:padding={ block?.attributes?.padding }
+        class="columns">
         {#each block.children as child}
             <GenericBlock block={child}/>
         {/each}
@@ -55,14 +57,14 @@ let { block }: {
     align-items: center;
     justify-content: center;
     inner {
-        min-width: 70vw;
+        min-width: min(70vw, 1200px);
     }
 }
 
 .columns {
     display: flex;
     font-size: 0.8em;
-    padding: 32px 0;
+    padding: 24px 0;
     gap: 32px;
     flex-direction: row;
     @media (max-width: 800px) {

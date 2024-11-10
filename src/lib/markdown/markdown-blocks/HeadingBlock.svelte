@@ -13,7 +13,7 @@ let dedent = getContext<number>("dedent")
 </script>
 <svelte:element
     this={ "h" + (block.depth + dedent || 0) }
-    id={encodeURIComponent(get_plain_text(block.children))}
+    id={encodeURIComponent(get_plain_text(block.children).toLowerCase())}
     class="heading">
     <PhrasingContent children={block.children}/>
 </svelte:element>

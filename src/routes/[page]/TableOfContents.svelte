@@ -20,7 +20,7 @@ let headings = $derived(ast.children.filter(node => node.type === "heading"))
         <a
             style:padding-left="{ (heading.depth ) * 16 }px"
             class="heading"
-            href="#{encodeURIComponent(get_plain_text(heading.children))}">
+            href="#{encodeURIComponent(get_plain_text(heading.children).toLowerCase())}">
             { get_plain_text(heading.children) }
         </a>
     {/each}
